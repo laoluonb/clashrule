@@ -302,63 +302,7 @@ proxies:
       path: "/?ed=2048"
       headers:
         Host: worker-polished-glade-6c49.ajrpgbbpll.workers.dev
-  - name: "gpt1"
-    type: vless
-    server: skk.moe
-    port: 8880
-    uuid: 77a571fb-4fd2-4b37-8596-1b7d9728bb6c
-    udp: false
-    tls: false
-    network: ws
-    servername: gpt.zjkqimefeg.workers.dev # priority over wss host
-    # skip-cert-verify: true
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: gpt.zjkqimefeg.workers.dev
-  - name: "gpt2"
-    type: vless
-    server: skk.moe
-    port: 8880
-    uuid: 77a571fb-4fd2-4b37-8596-1b7d9728bb6c
-    udp: false
-    tls: false
-    network: ws
-    servername: gpt.btuglacend.workers.dev # priority over wss host
-    # skip-cert-verify: true
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: gpt.btuglacend.workers.dev      
-  - name: "不死v6"
-    type: vless
-    server: clash.laoluowl.xyz
-    port: 8880
-    uuid: 77a571fb-4fd2-4b37-8596-1b7d9728bb6c
-    udp: false
-    tls: false
-    network: ws
-    servername: v6.qehgoxslvt.workers.dev # priority over wss host
-    # skip-cert-verify: true
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: v6.qehgoxslvt.workers.dev  
-  - name: "谷歌云🇭🇰"
-    type: vless
-    server: google.laoluowl.xyz
-    port: 443
-    uuid: 27fd01e5-fbbf-4043-a9a3-bc4d29baff7e
-    tls: true
-    udp: true
-    network: ws
-    servername: google.laoluowl.xyz # priority over wss host
-    # skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        Host: google.laoluowl.xyz
-  - name: "帕斯云🇯🇵"
+  - name: "帕斯云日本🇯🇵"
     type: vless
     server: jp.laoluowl.xyz
     port: 29063
@@ -404,8 +348,7 @@ proxy-groups:
       - 新加坡节点1 🇸🇬
       - 新加坡节点2 🇸🇬
       - 日本节点 🇯🇵
-      - 不死v6
-      - 帕斯云🇯🇵
+      - 帕斯云日本🇯🇵
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -433,8 +376,7 @@ proxy-groups:
       - 新加坡节点1 🇸🇬
       - 新加坡节点2 🇸🇬
       - 日本节点 🇯🇵
-      - 不死v6
-      - 帕斯云🇯🇵
+      - 帕斯云日本🇯🇵
   - name: 🤖 ChatGPT
     type: select
     proxies:
@@ -720,7 +662,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 帕斯云🇯🇵
+      - 帕斯云日本🇯🇵
       - 日本节点 🇯🇵
   - name: 🇺🇲 美国节点
     type: url-test
