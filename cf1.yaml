@@ -318,6 +318,22 @@ proxies:
     tls: false
     udp: false
     network: tcp
+  - name: "帕斯云俄罗斯解锁/200m带宽"
+    type: vless
+    server: v3.laoluowl.xyz
+    port: 58488
+    uuid: a42a53f0-6b97-4e4d-adcc-e8895eabb26e
+    tls: false
+    udp: false
+    network: tcp
+  - name: "帕斯云土耳其解锁/80m带宽"
+    type: vless
+    server: v4.laoluowl.xyz
+    port: 38276
+    uuid: 45a25d3a-c7cd-48c1-a63c-168ace8947ff
+    tls: false
+    udp: false
+    network: tcp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
