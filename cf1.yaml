@@ -302,11 +302,19 @@ proxies:
       path: "/?ed=2048"
       headers:
         Host: worker-polished-glade-6c49.ajrpgbbpll.workers.dev
-  - name: "帕斯云日本解锁🇯🇵"
+  - name: "帕斯云日本解锁🇯🇵/20m带宽"
     type: vless
     server: jp.laoluowl.xyz
     port: 29063
     uuid: b2e41953-c02b-4de7-b4bd-abb19cef1c15
+    tls: false
+    udp: false
+    network: tcp
+  - name: "帕斯云罗马尼亚解锁/200m带宽"
+    type: vless
+    server: v2.laoluowl.xyz
+    port: 34571
+    uuid: 9473865f-6994-4415-9328-6319f0036116
     tls: false
     udp: false
     network: tcp
