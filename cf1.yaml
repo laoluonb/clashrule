@@ -318,7 +318,7 @@ proxies:
     tls: false
     udp: false
     network: tcp
-  - name: "帕斯云俄罗斯解锁/200m带宽"
+  - name: "帕斯云俄罗斯/200m带宽"
     type: vless
     server: v3.laoluowl.xyz
     port: 58488
