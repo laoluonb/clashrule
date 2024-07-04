@@ -334,6 +334,14 @@ proxies:
     tls: false
     udp: false
     network: tcp
+  - name: "帕斯云美国解锁/200m带宽"
+    type: vless
+    server: usa.laoluowl.xyz
+    port: 37981
+    uuid: dc80de39-d652-498a-dd8e-7e708747a7e8
+    tls: false
+    udp: false
+    network: tcp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
