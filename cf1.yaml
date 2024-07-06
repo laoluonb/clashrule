@@ -342,6 +342,14 @@ proxies:
     tls: false
     udp: false
     network: tcp
+  - name: "香港解锁/1000m带宽/2T"
+    type: vless
+    server: 62.192.175.246
+    port: 23104
+    uuid: 0ac82b68-905f-4518-c803-c1bd64cf698f
+    tls: false
+    udp: false
+    network: tcp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
