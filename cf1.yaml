@@ -350,6 +350,14 @@ proxies:
     tls: false
     udp: false
     network: tcp
+  - name: "免费美国解锁/1m带宽"
+    type: vless
+    server: free.laoluowl.xyz
+    port: 54449
+    uuid: b16cb7ee-c378-4273-df02-56577dc433e3
+    tls: false
+    udp: false
+    network: tcp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
