@@ -1,3 +1,6 @@
+
+
+
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -318,35 +321,11 @@ proxies:
     tls: false
     udp: false
     network: tcp
-  - name: "帕斯云俄罗斯/200m带宽"
-    type: vless
-    server: v3.laoluowl.xyz
-    port: 58488
-    uuid: a42a53f0-6b97-4e4d-adcc-e8895eabb26e
-    tls: false
-    udp: false
-    network: tcp
-  - name: "帕斯云土耳其解锁/80m带宽"
-    type: vless
-    server: v4.laoluowl.xyz
-    port: 38276
-    uuid: 45a25d3a-c7cd-48c1-a63c-168ace8947ff
-    tls: false
-    udp: false
-    network: tcp
   - name: "帕斯云美国解锁/200m带宽"
     type: vless
     server: usa.laoluowl.xyz
     port: 37981
     uuid: dc80de39-d652-498a-dd8e-7e708747a7e8
-    tls: false
-    udp: false
-    network: tcp
-  - name: "香港解锁/1000m带宽/2T"
-    type: vless
-    server: 62.192.175.246
-    port: 23104
-    uuid: 0ac82b68-905f-4518-c803-c1bd64cf698f
     tls: false
     udp: false
     network: tcp
